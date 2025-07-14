@@ -55,10 +55,17 @@
 > - *Kategorik değişkenler H2O platformunda model için uygun şekilde faktöriyel (kategori) tipe dönüştürülmüştür.*
 
 ### Görselleştirmeler
-> *Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
+HeartDisease hedef değişkenin dağılımı dengeli ve model için uygundur.
 
 <img width="583" height="577" alt="image" src="https://github.com/user-attachments/assets/0a759ef4-8c39-4fad-ac7e-d0000bed998e" />
 
+Korelasyon matrisi ile değişkenler arası ilişkiler analiz edilmiş; yaş ve maksimum kalp atış hızı arasında negatif korelasyon gözlenmiştir.
+
+<img width="822" height="747" alt="image" src="https://github.com/user-attachments/assets/f59ac47d-6753-4108-9236-be5e39fac545" />
+
+Kutu grafiklerle aykırı değerler ve veri dağılımları gösterilmiştir.
+
+<img width="994" height="595" alt="image" src="https://github.com/user-attachments/assets/c390ac3d-39c8-43d1-9a55-5d9d1a114d43" />
 
 ### Öznitelik İlişkileri
 > *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
