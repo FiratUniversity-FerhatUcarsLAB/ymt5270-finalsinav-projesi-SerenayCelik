@@ -49,15 +49,16 @@
 <img width="202" height="283" alt="image" src="https://github.com/user-attachments/assets/2266634d-64d9-4c29-94b2-b72a4741d3ed" />
 
 ### Veri Ön İşleme
-> *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*
-> - *Eksik verilerin nasıl işlendiği*
+> - *Eksik veri bulunmamaktadır.*
 > - *Aykırı değerlerin tespiti ve işlenmesi*
-> - *Veri normalizasyonu/standardizasyonu*
-> - *Kategorik verilerin kodlanması*
-> - *Diğer ön işleme adımları*
+> - *Aykırı değerler özellikle kolesterol ve kan basıncı değişkenlerinde gözlenmiştir ancak doğal sağlık durumu göstergesi olabileceğinden çıkarılmamıştır.*
+> - *Kategorik değişkenler H2O platformunda model için uygun şekilde faktöriyel (kategori) tipe dönüştürülmüştür.*
 
 ### Görselleştirmeler
 > *Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
+
+<img width="583" height="577" alt="image" src="https://github.com/user-attachments/assets/0a759ef4-8c39-4fad-ac7e-d0000bed998e" />
+
 
 ### Öznitelik İlişkileri
 > *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
