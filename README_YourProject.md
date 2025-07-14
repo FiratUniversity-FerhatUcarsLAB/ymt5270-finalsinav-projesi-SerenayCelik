@@ -68,7 +68,8 @@ Kutu grafiklerle aykırı değerler ve veri dağılımları gösterilmiştir.
 <img width="994" height="595" alt="image" src="https://github.com/user-attachments/assets/c390ac3d-39c8-43d1-9a55-5d9d1a114d43" />
 
 ### Öznitelik İlişkileri
-> *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
+> *Sayısal değişkenler arasında yüksek korelasyon bulunmamakla birlikte, bazı düşük-orta seviyede ilişkiler tespit edilmiştir.*
+<img width="822" height="747" alt="image" src="https://github.com/user-attachments/assets/f59ac47d-6753-4108-9236-be5e39fac545" />
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
