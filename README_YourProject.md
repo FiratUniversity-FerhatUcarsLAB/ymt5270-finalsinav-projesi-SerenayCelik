@@ -6,15 +6,7 @@
 - **E-posta**: serenaycelik23@gmail.com
 
 ## Proje Özeti
-> *Bu projede, kalp hastalığı tahmini yapmak amacıyla Kaggle'de yer alan “Heart Failure Prediction” veri seti kullanılmıştır. Veri seti, 918 hasta örneği ve 12 öznitelikten oluşmaktadır. Bu veri seti, halihazırda bağımsız olarak mevcut olan ancak daha önce birleştirilmemiş farklı veri setlerinin bir araya getirilmesiyle oluşturulmuştur. Bu veri setinde, 11 ortak özellik üzerinden birleştirilen 5 kalp veri seti, araştırma amaçlı bugüne kadar mevcut en büyük kalp hastalığı veri setidir. Derlemesinde kullanılan beş veri seti şunlardır:
-
-Cleveland: 303 gözlem
-Macarca: 294 gözlem
-İsviçre: 123 gözlem
-Long Beach VA: 200 gözlem
-Stalog (Kalp) Veri Seti: 270 gözlem
-
-Tekrarlanan 272 gözlemin çıkarılmasıyla toplam 918 örnek gözlemden oluşturulmuştur. Hedef değişken, kalp hastalığının varlığına işaret eden ikili bir sınıflandırma problemidir. Öncelikle veri setinin yapısı incelenmiş, eksik veriler kontrol edilmiş ve sayısal değişkenler arasındaki korelasyon analiz edilmiştir. Aykırı değerler ve hedef değişkenin dağılımı görselleştirilmiştir. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Veri H2O.ai platformuna aktarılmış ve AutoML yöntemi kullanılarak çeşitli modeller denenmiştir. En iyi model %88.95 doğruluk, %100 precision ve recall oranı ile başarılı sonuçlar elde etmiştir.*
+> *Bu projede, kalp hastalığı tahmini yapmak amacıyla Kaggle'de yer alan “Heart Failure Prediction” veri seti kullanılmıştır. Veri seti, 918 hasta örneği ve 12 öznitelikten oluşmaktadır. Bu veri seti, halihazırda bağımsız olarak mevcut olan ancak daha önce birleştirilmemiş farklı veri setlerinin bir araya getirilmesiyle oluşturulmuştur. Bu veri setinde, 11 ortak özellik üzerinden birleştirilen 5 kalp veri seti, araştırma amaçlı bugüne kadar mevcut en büyük kalp hastalığı veri setidir. Derlemesinde kullanılan beş veri seti; Cleveland: 303 gözlem, Macarca: 294 gözlem, İsviçre: 123 gözlem, Long Beach VA: 200 gözlem, Stalog (Kalp) Veri Seti: 270 gözlemden oluşmaktadır.Tekrarlanan 272 gözlemin çıkarılmasıyla toplam 918 örnek gözlemden oluşturulmuştur. Hedef değişken, kalp hastalığının varlığına işaret eden ikili bir sınıflandırma problemidir. Öncelikle veri setinin yapısı incelenmiş, eksik veriler kontrol edilmiş ve sayısal değişkenler arasındaki korelasyon analiz edilmiştir. Aykırı değerler ve hedef değişkenin dağılımı görselleştirilmiştir. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Veri H2O.ai platformuna aktarılmış ve AutoML yöntemi kullanılarak çeşitli modeller denenmiştir. En iyi model %88.95 doğruluk, %100 precision ve recall oranı ile başarılı sonuçlar elde etmiştir.*
 
 ## Veri Seti
 ### Veri Seti Bilgileri
