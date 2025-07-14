@@ -14,7 +14,7 @@ Macarca: 294 gözlem
 Long Beach VA: 200 gözlem
 Stalog (Kalp) Veri Seti: 270 gözlem
 
-Tekrarlanan 272 gözlemin çıkarılmasıyla toplam 918 örnek gözlemden oluşturulmuştur. Hedef değişken, kalp hastalığının varlığına işaret eden ikili bir sınıflandırma problemidir. Öncelikle veri setinin yapısı incelenmiş, eksik veriler kontrol edilmiş ve sayısal değişkenler arasındaki korelasyon analiz edilmiştir. Aykırı değerler ve hedef değişkenin dağılımı görselleştirilmiştir. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Veri H2O.ai platformuna aktarılmış ve AutoML yöntemi kullanılarak çeşitli modeller denenmiştir. En iyi model %88.95 doğruluk, %100 precision ve recall oranı ile başarılı sonuçlar elde etmiştir. *
+Tekrarlanan 272 gözlemin çıkarılmasıyla toplam 918 örnek gözlemden oluşturulmuştur. Hedef değişken, kalp hastalığının varlığına işaret eden ikili bir sınıflandırma problemidir. Öncelikle veri setinin yapısı incelenmiş, eksik veriler kontrol edilmiş ve sayısal değişkenler arasındaki korelasyon analiz edilmiştir. Aykırı değerler ve hedef değişkenin dağılımı görselleştirilmiştir. Veri setinin uyguluğundan analiz yöntemi olarak sınıflandırma tercih edilmiştir. Veri H2O.ai platformuna aktarılmış ve AutoML yöntemi kullanılarak çeşitli modeller denenmiştir. En iyi model %88.95 doğruluk, %100 precision ve recall oranı ile başarılı sonuçlar elde etmiştir.*
 
 ## Veri Seti
 ### Veri Seti Bilgileri
