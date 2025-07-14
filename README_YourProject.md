@@ -34,13 +34,19 @@
 | ST_Slope | Kategorik | 	ST segment eğimi | "Up" |
 | HeartDisease | Kategorik | 	Hedef değişken: kalp hastalığı var mı? (1=Evet, 0=Hayır) | "1" |
 
-Veri Setinin 5 satırlık örneği
-<img width="907" height="275" alt="image" src="https://github.com/user-attachments/assets/ec390812-b91f-449b-b701-26404c9542b0" />
-
+<img width="924" height="286" alt="image" src="https://github.com/user-attachments/assets/962a5130-293c-49e1-b43c-c2ad6fda4ad3" />
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
 > *Veri setinde sayısal değişkenlerin ortalamaları, medyanları ve standart sapmaları incelendi. Örneğin, yaş ortalaması yaklaşık 54, kolesterol seviyeleri 198 civarında değişmektedir. Veride eksik değer bulunmamaktadır.*
+
+<img width="670" height="332" alt="image" src="https://github.com/user-attachments/assets/feadcf3c-4bf5-4089-9572-273cdff1d3a5" />
+
+<img width="650" height="328" alt="image" src="https://github.com/user-attachments/assets/0cbaa5ba-e021-4779-9f6f-bdb75f9e8aea" />
+
+<img width="433" height="460" alt="image" src="https://github.com/user-attachments/assets/e8319bd8-6d39-4ec2-8a64-00e026292107" />
+
+<img width="202" height="283" alt="image" src="https://github.com/user-attachments/assets/2266634d-64d9-4c29-94b2-b72a4741d3ed" />
 
 ### Veri Ön İşleme
 > *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*
