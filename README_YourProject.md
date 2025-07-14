@@ -34,9 +34,12 @@
 | ST_Slope | Kategorik | 	ST segment eğimi | "Up" |
 | HeartDisease | Kategorik | 	Hedef değişken: kalp hastalığı var mı? (1=Evet, 0=Hayır) | "1" |
 
+<img width="907" height="275" alt="image" src="https://github.com/user-attachments/assets/ec390812-b91f-449b-b701-26404c9542b0" />
+
+
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
-> *Veri setine ait temel istatistikleri (ortalama, medyan, standart sapma, vb.) buraya ekleyiniz. Orange'dan alınan ekran görüntüleri ile destekleyebilirsiniz.*
+> *Veri setinde sayısal değişkenlerin ortalamaları, medyanları ve standart sapmaları incelendi. Örneğin, yaş ortalaması yaklaşık 54, kolesterol seviyeleri 198 civarında değişmektedir. Veride eksik değer bulunmamaktadır.*
 
 ### Veri Ön İşleme
 > *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*
