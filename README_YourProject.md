@@ -34,6 +34,7 @@
 | ST_Slope | Kategorik | 	ST segment eğimi | "Up" |
 | HeartDisease | Kategorik | 	Hedef değişken: kalp hastalığı var mı? (1=Evet, 0=Hayır) | "1" |
 
+Veri Setinin 5 satırlık örneği
 <img width="907" height="275" alt="image" src="https://github.com/user-attachments/assets/ec390812-b91f-449b-b701-26404c9542b0" />
 
 
