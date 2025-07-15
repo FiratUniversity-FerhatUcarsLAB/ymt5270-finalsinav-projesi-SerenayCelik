@@ -131,4 +131,4 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 [ipynb Proje Dosyası Bağlantısı](https://github.com/FiratUniversity-FerhatUcarsLAB/ymt5270-finalsinav-projesi-SerenayCelik/blob/main/serenaycelik_ymt5270final.ipynb)
 
 ### Veri Seti Dosyası veya Bağlantısı
-[Veri Seti Bağlantısı](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+[Veri Seti Bağlantısı](https://github.com/FiratUniversity-FerhatUcarsLAB/ymt5270-finalsinav-projesi-SerenayCelik/blob/main/heart.csv)
