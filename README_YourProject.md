@@ -88,39 +88,37 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 
 ### Model Değerlendirmesi
 > *AutoML tarafından eğitilen modeller arasından en yüksek performansı gösteren model, StackedEnsemble_BestOfFamily modeli olmuştur. Bu model, birden fazla temel modelin çıktısını birleştirerek daha yüksek doğruluk ve daha düşük hata oranı sağlayan bir topluluk (ensemble) modelidir. Sınıflandırma modelinin başarımını değerlendirmek için çeşitli performans metrikleri kullanılmıştır.*
->
+
 > Accuracy (Doğruluk): Modelin yaptığı doğru tahminlerin, toplam tahmin sayısına oranıdır. Tüm sınıflar için genel başarıyı ifade eder. Veri dengeli olduğu sürece güvenilir bir metriktir.
+> Precision (Kesinlik): Modelin pozitif olarak tahmin ettiklerinin ne kadarının gerçekten pozitif olduğunu ölçer. Yanlış pozitif sayısı düşükse precision değeri yüksektir.
+> Recall (Duyarlılık): Gerçek pozitif vakaların ne kadarının doğru tahmin edildiğini gösterir.
+> F1 Skoru: Precision ve recall’un harmonik ortalamasıdır. Birinin yüksek diğerinin düşük olduğu durumlarda ortalamadan daha dengeli bir sonuç verir.
+> AUC (Area Under the ROC Curve): Modelin pozitif ve negatif sınıfları ne kadar iyi ayırabildiğini gösterir. 1.0 değeri mükemmel ayırma gücü, 0.5 değeri ise tamamen rastgele tahmin anlamına gelir.
+> Log Loss (Logaritmik Kayıp): Modelin tahmin olasılıklarının ne kadar “emin” olduğunu ölçer. Düşük logloss, modelin hem doğru hem de emin tahminler yaptığını gösterir.
+> RMSE ve MSE: Bu iki metrik, modelin hata büyüklüğünü ifade eder. RMSE (kök ortalama kare hata) ve MSE (ortalama kare hata) ne kadar düşükse, modelin tahminleri gerçek değerlere o kadar yakındır.
 
-Precision (Kesinlik): Modelin pozitif olarak tahmin ettiklerinin ne kadarının gerçekten pozitif olduğunu ölçer. Yanlış pozitif sayısı düşükse precision değeri yüksektir.
-
-Recall (Duyarlılık): Gerçek pozitif vakaların ne kadarının doğru tahmin edildiğini gösterir. 
-
-F1 Skoru: Precision ve recall’un harmonik ortalamasıdır. Birinin yüksek diğerinin düşük olduğu durumlarda ortalamadan daha dengeli bir sonuç verir.
-
-AUC (Area Under the ROC Curve): Modelin pozitif ve negatif sınıfları ne kadar iyi ayırabildiğini gösterir. 1.0 değeri mükemmel ayırma gücü, 0.5 değeri ise tamamen rastgele tahmin anlamına gelir. 
-
-Log Loss (Logaritmik Kayıp): Modelin tahmin olasılıklarının ne kadar “emin” olduğunu ölçer. Düşük logloss, modelin hem doğru hem de emin tahminler yaptığını gösterir.
-
-RMSE ve MSE: Bu iki metrik, modelin hata büyüklüğünü ifade eder. RMSE (kök ortalama kare hata) ve MSE (ortalama kare hata) ne kadar düşükse, modelin tahminleri gerçek değerlere o kadar yakındır. 
 #### Metrikler
 | Metrik | Değer |
 |--------|-------|
-| Örnek Metrik 1 | 0.85 |
-| Örnek Metrik 2 | 0.78 |
-| ... | ... |
+| Accuracy | 0.8895 |
+| Precision | 1.0 |
+| Recall | 1.0 |
+| F1 Skoru | 0.9009 |
+| AUC | 0.9312 |
+| LogLoss | 0.3236 |
+| RMSE (Hata) | 0.3123 |
 
 ### Sonuçların Yorumlanması
-> *Elde ettiğiniz sonuçları detaylı bir şekilde yorumlayınız. Modelin güçlü ve zayıf yönleri nelerdir? Başka hangi modeller denenebilirdi*
+> *Precision ve Recall’un 1.0 olması, özellikle kalp hastalığı gibi kritik bir problemde, modelin tüm hasta bireyleri doğru şekilde tespit ettiğini ve hiç yanlış pozitif üretmediğini göstermektedir. Accuracy (%88.95) çok yüksektir. Veri dengeli olduğu için bu değer yanıltıcı değildir. F1 Skoru, precision ve recall arasında mükemmel bir denge sağlandığını göstermektedir. AUC değeri 0.93, modelin pozitif ve negatif sınıfları ayırt etme konusunda oldukça başarılı olduğunu ortaya koyar. Logloss ve RMSE gibi hata metrikleri düşüktür; bu da modelin kararsız sınıflarda bile doğruya yakın tahminler yaptığı anlamına gelir. Model yüksek doğruluk ve mükemmel precision & recall değerleri ile başarılı bir sınıflandırma gerçekleştirmiştir. Hastaları kaçırmaması ve yanlış pozitif sayısının sıfır olması, modelin güvenilirliğini artırmaktadır. Model, kalp hastalığı tahmini için kullanılabilir düzeydedir. Ancak, modelin daha fazla veri ve farklı özelliklerle desteklenmesi ileride daha iyi performans sağlayabilir.*
 
 ## Sonuç ve Öneriler
-> *Projenizin genel bir değerlendirmesini yapınız. Elde ettiğiniz sonuçlar hakkında çıkarımlarınızı ve gelecek çalışmalar için önerilerinizi yazınız.*
+> *H2O AutoML kullanarak kalp hastalığı tahmininde etkili bir model geliştirmiştir. Elde edilen sonuçlar tıbbi karar destek sistemlerinde kullanılabilir. Gelecekte; Veri seti büyütülüp çeşitlendirilerek, model hiperparametre ayarları optimize edilerek veya farklı makine öğrenmesi teknikleri denenerek sonuçlar değerlendirelebilir. Bu sayede modelin genellenebilirliği ve doğruluğu artırılabilir.*
 
 ## Kaynaklar
-> *Proje boyunca yararlandığınız kaynakları (makaleler, web siteleri, videolar, vb.) buraya ekleyiniz.*
 
-1. Kaynak 1
-2. Kaynak 2
-3. ...
+1. Kaggle Heart Failure Prediction Dataset: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+2. H2O.ai Documentation: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html
+3. ChatGPT
 
 ## Ekler
 ### ipynb Proje Dosyası
