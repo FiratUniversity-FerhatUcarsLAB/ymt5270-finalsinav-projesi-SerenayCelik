@@ -128,7 +128,7 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 
 ## Ekler
 ### ipynb Proje Dosyası
-> * proje dosyanızı (.ipynb) bu repoya yükleyiniz ve buradan referans veriniz.*
+[ipynb Proje Dosyası Bağlantısı]()
 
 ### Veri Seti Dosyası veya Bağlantısı
 [Veri Seti Bağlantısı](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
