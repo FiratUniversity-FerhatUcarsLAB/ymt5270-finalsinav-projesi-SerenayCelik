@@ -73,10 +73,18 @@ Kutu grafiklerle aykırı değerler ve veri dağılımları gösterilmiştir.
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
-> *Veri setinize uyguladığınız makine öğrenmesi yöntemini (sınıflandırma, regresyon veya kümeleme) belirtiniz ve neden bu yöntemi seçtiğinizi açıklayınız.*
+> *Bu projede, H2O.ai kütüphanesinin AutoML (Automated Machine Learning) modülü kullanılarak sınıflandırma problemi çözülmüştür. AutoML, farklı makine öğrenmesi algoritmalarını belirli parametreler altında otomatik olarak deneyerek en iyi performans göstereni seçmeyi sağlamaktadır. AutoML süreci içerisinde H2O şu algoritmaları otomatik olarak değerlendirmiştir; Gradient Boosting Machine (GBM), XGBoost, Random Forest, Deep Learning (Çok katmanlı sinir ağı), GLM (Genelleştirilmiş Doğrusal Model), Stacked Ensemble (birden fazla modelin çıktısını birleştiren topluluk yöntemi).*
 
 ### Modeller ve Parametreler
-> *Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*
+Model eğitimi sırasında veri, %80 eğitim ve %20 test olacak şekilde ayrılmıştır. Hedef değişken (HeartDisease) H2OFrame ortamında kategorik (asfactor()) yapılmıştır. Eğitim sonrası AutoML, en iyi performansı gösteren modeli otomatik olarak belirlemiştir. Bu projede en iyi model, yüksek doğruluk (%88.95) ve mükemmel precision/recall (%100) değerlerine ulaşan bir Stacked Ensemble modeli olmuştur. Bu model, diğer modellerin çıktılarından öğrenerek nihai tahmin yapan bir topluluk modelidir.
+
+<img width="437" height="78" alt="image" src="https://github.com/user-attachments/assets/d385ccb0-9a5d-42ca-a0c3-910a92e3bde7" />
+
+En fazla 10 farklı modelin denenmesi istenmiştir. Tekrarlanabilirlik için rastgele sayı üretiminde kullanılan sabit değer (seed) 1 seçilmiştir.
+
+<img width="771" height="366" alt="image" src="https://github.com/user-attachments/assets/d896a9cd-55e6-482d-959e-34080a040d4f" />
+
+Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tablosudur. Otomatik olarak eğitilen modellerin performans metriklerine göre en iyi modelden en zayıfa doğru sıralandığını göstermektedir.
 
 ### Model Değerlendirmesi
 > *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*
