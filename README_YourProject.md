@@ -132,3 +132,4 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 
 ### Veri Seti Dosyası veya Bağlantısı
 > [Veri Seti.csv](heart.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
+> main/heart.csv
