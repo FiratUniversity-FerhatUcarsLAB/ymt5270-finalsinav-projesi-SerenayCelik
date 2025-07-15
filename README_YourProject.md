@@ -131,6 +131,4 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 > * proje dosyanızı (.ipynb) bu repoya yükleyiniz ve buradan referans veriniz.*
 
 ### Veri Seti Dosyası veya Bağlantısı
-> *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
->
-> [Veri_Seti.csv](veri_seti.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
+> [heart.csv](veri_seti.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
