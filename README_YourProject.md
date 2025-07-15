@@ -90,11 +90,17 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 > *AutoML tarafından eğitilen modeller arasından en yüksek performansı gösteren model, StackedEnsemble_BestOfFamily modeli olmuştur. Bu model, birden fazla temel modelin çıktısını birleştirerek daha yüksek doğruluk ve daha düşük hata oranı sağlayan bir topluluk (ensemble) modelidir. Sınıflandırma modelinin başarımını değerlendirmek için çeşitli performans metrikleri kullanılmıştır.*
 
 > Accuracy (Doğruluk): Modelin yaptığı doğru tahminlerin, toplam tahmin sayısına oranıdır. Tüm sınıflar için genel başarıyı ifade eder. Veri dengeli olduğu sürece güvenilir bir metriktir.
+> 
 > Precision (Kesinlik): Modelin pozitif olarak tahmin ettiklerinin ne kadarının gerçekten pozitif olduğunu ölçer. Yanlış pozitif sayısı düşükse precision değeri yüksektir.
+>
 > Recall (Duyarlılık): Gerçek pozitif vakaların ne kadarının doğru tahmin edildiğini gösterir.
+>
 > F1 Skoru: Precision ve recall’un harmonik ortalamasıdır. Birinin yüksek diğerinin düşük olduğu durumlarda ortalamadan daha dengeli bir sonuç verir.
+>
 > AUC (Area Under the ROC Curve): Modelin pozitif ve negatif sınıfları ne kadar iyi ayırabildiğini gösterir. 1.0 değeri mükemmel ayırma gücü, 0.5 değeri ise tamamen rastgele tahmin anlamına gelir.
+>
 > Log Loss (Logaritmik Kayıp): Modelin tahmin olasılıklarının ne kadar “emin” olduğunu ölçer. Düşük logloss, modelin hem doğru hem de emin tahminler yaptığını gösterir.
+>
 > RMSE ve MSE: Bu iki metrik, modelin hata büyüklüğünü ifade eder. RMSE (kök ortalama kare hata) ve MSE (ortalama kare hata) ne kadar düşükse, modelin tahminleri gerçek değerlere o kadar yakındır.
 
 #### Metrikler
