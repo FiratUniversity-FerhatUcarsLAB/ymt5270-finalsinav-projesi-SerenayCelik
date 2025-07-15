@@ -131,5 +131,4 @@ Bu tablo, H2O AutoML tarafından oluşturulan model sıralama (leaderboard) tabl
 > * proje dosyanızı (.ipynb) bu repoya yükleyiniz ve buradan referans veriniz.*
 
 ### Veri Seti Dosyası veya Bağlantısı
-> [Veri Seti.csv](heart.csv) veya [Veri Seti Bağlantısı](https://ornek-veri-seti-baglantisi.com)
-> main/heart.csv
+> [Veri Seti.csv](heart.csv) veya [Veri Seti Bağlantısı](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
